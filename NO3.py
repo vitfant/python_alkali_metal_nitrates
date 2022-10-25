@@ -59,7 +59,7 @@ def conversion(block,cart_to_frac,fract_to_cart):
 
 
 folder =  os.path.dirname(os.path.realpath(__file__))
-config = open(folder + '/07_12.cfg','r')
+config = open(folder + '/CONFIG','r')
 config_NO3 = open("CONFIG_NO3.txt", "w", newline = "")
 
 for l in config:
