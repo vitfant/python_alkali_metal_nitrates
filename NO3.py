@@ -3,7 +3,7 @@ import sys
 import csv
 from math import sqrt, cos, radians
 
-#questa funzione serve per creare 2 liste con le coordinate per N e O e verrá applicata ai 2 blocchi separati
+#this function creates 2 lists with the N and O coordinates and it will be applied to the two separete blocks 
 def sep_N_O(block):
     block_N = []
     block_O = [] 
@@ -20,7 +20,7 @@ def sep_N_O(block):
             block_K.append(block[i+1])
     return block_N, block_O , block_K 
 
-#questa funzione calcola la distanza tra 2 punti P1 e P2 che sono delle liste
+#this function calculates the distance between the points P1 and P2 included in the lists 
 def distance(P1, P2):
     P1=P1.split()
     P2=P2.split()
