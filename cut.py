@@ -1,3 +1,4 @@
+#reads the file CONFIG.cfg, writes the file cut.cfg
 target = open("cut.cfg", "w")
 file = open("CONFIG.cfg")
 lines = []
