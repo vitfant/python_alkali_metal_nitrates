@@ -1,0 +1,7 @@
+import np_manhattan_distance_values
+#import matplotlib.pyplot as plt
+filepath = "Cv-distances.log"
+sd_alpha_cal,sd_beta_cal,sd_alpha_ara,sd_beta_ara = np_manhattan_distance_values.np_manhattan_distances([filepath], 8000, 4)
+print (sd_alpha_cal)
+#plt.plot(sd_alpha_cal, sd_beta_cal, '.')
+#plt.show()

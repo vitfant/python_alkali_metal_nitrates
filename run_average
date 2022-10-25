@@ -1,0 +1,4 @@
+import np_average_polymorphs
+filepath = "Cv-distances.log"
+ave_cal, ave_ara = np_average_polymorphs.np_average_polymorphs([filepath], 8000, 4, 10, 0)
+print (ave_cal, ave_ara)
